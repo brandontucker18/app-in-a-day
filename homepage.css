@@ -1,3 +1,33 @@
+<<<<<<< HEAD
 body{
   background-image: ;
+=======
+.main-head {
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 200px;
+background-color: rgb(180, 160, 136);
+color: rgb(179, 189, 207);
+padding: 60px 100px 60px 100px;
+
+}
+.image-logo {
+  display: flex;
+  align-items: center;
+  
+}
+.right-column {
+  color: aliceblue;
+}
+.links ul{
+  display: inline-flex;
+  margin: 50px;
+}
+.links ul li {
+  list-style: none;
+  margin:  0 20px; 
+  color: antiquewhite;
+  cursor: pointer;
+>>>>>>> 72fcb3dae1b52964b57cf71ef164e5d748aa9fbe
 }
