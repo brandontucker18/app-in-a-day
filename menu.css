@@ -5,17 +5,30 @@ body {
 
 .top-wrapper {
     size: 500px;
-    background-color: rgb(28, 146, 224);
+    background-color: rgb(61, 184, 233);
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 20px;
     padding-top: 20px;
     
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    right: 0;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: centers;
+    transform: skewY(-2deg);
+    transform-origin: top left;
+    filter: brightness(50% );
 }
 
 .nav_link_wrapper > .nav-link a {
-color: blue;
+color: rgb(0, 0, 0);
 height: 40px;
 margin-left: 80px;
 
