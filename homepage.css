@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-body{
-  background-image: ;
-=======
 .main-head {
 display: flex;
 justify-content: space-around;
@@ -29,5 +25,4 @@ padding: 60px 100px 60px 100px;
   margin:  0 20px; 
   color: antiquewhite;
   cursor: pointer;
->>>>>>> 72fcb3dae1b52964b57cf71ef164e5d748aa9fbe
 }
