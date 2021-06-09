@@ -1,59 +1,83 @@
 body {
     margin: 0px;
+    
+
+}
+body img {
+    background-image: url(./images/background.jpg);
+    height: 100%;
+  
+}
+
+.header_wrapper {
+    height: 180px;
+    width: 100%;
+    background-color: rgb(92, 145, 158);
+    color: black;
+}
+
+.nav-link a{
+    color: black;
+    font-size: 30px;
+
+    
+
+    
+
+}
+
+.links {
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: .1fr .1fr  ;
+    align-items: center;
+    
 }
 
 
-.top-wrapper {
-    size: 500px;
-    background-color: rgb(61, 184, 233);
+ .title {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    
-    position: absolute;
-    top: 0;
-    bottom: 0; 
-    right: 0;
-    left: 0;
-    height: 20%;
-    width: 100%;
+    font-size: 20px;
+   padding-bottom: 0px;
+   color: cornsilk;
+
+}
+
+.menu-wrapper {
+    background-image: url(./images/background.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: centers;
-    transform: skewY(-2deg);
-    transform-origin: top left;
-    filter: brightness(50% );
-}
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+  }
 
-.nav_link_wrapper > .nav-link a {
-color: rgb(0, 0, 0);
-height: 40px;
-margin-left: 80px;
+  .flavor-wrapper {
+      height: 300px;
+      width: 100%;
+      background-color: rgb(37, 36, 66);
+  }
 
-display: grid;
-grid-template-columns: row;
-grid-gap: 10px;
-grid-row:;
-
+.menu-wrapper >.word {
+    background-color: black;
+    width: 400px;
 
 }
-
-.page-content > .image-wrapper img {
-    
-        height: 100%;
-        width: 100%;
-      
-        background-image: url(../images/background.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       
-        
-        
-}
+. {
+    background-image: url(./images/background.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+  }
