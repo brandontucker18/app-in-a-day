@@ -1,12 +1,18 @@
 body{
-background-image: url(./imagenes/LogoMakr-5EasTD.png);
-background-size:100vw 100vh;
-background-attachment: fixed;
-margin: 0;
-font-family: monospace;
+  background-image: url("https://static3.bigstockphoto.com/thumbs/5/0/9/large1500/90525392.jpg");
+  background-size:100vw 100vh;
+  font-family: monospace;
 }
 
-.form{
+.coffeeShop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+form{
   width: 450px;
   margin: auto;
   background:rgba(0,0,0,0.4);
@@ -16,26 +22,29 @@ font-family: monospace;
   border-radius:7px;
   display:grid;
   justify-items: center;
+  grid-gap: 10px;
+  margin-top: 10%;
 }
 
-.h2{
-  color: rgb(241, 245, 248);
+h2{
+  color: rgb(241, 242, 248);
   text-align: center;
   margin: 0;
   font-size: 30px;
   margin-bottom: 20px;
 }
 
-.input,textarea{
-width: 100%;
-margin-bottom:20px;
-padding: 7px;
-box-sizing: border-box;
-font-size: 17px;
-border: none;
+input > textarea{
+ width: 100%;
+ margin-bottom:20px;
+ padding: 7px;
+ box-sizing: border-box;
+ font-size: 17px;
+ border: none;
+ font-size: 10px;
 }
 
-.textarea{
+textarea{
   min-height: 100px;
   max-height: 200px;
   max-width: 100%;
@@ -50,8 +59,4 @@ border: none;
 
 #boton:hover{
   cursor: pointer;
-}
-
-@media(  max-width: 480px;){
-  form{width: 100%;}
 }
